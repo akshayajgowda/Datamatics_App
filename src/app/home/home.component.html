@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div class="container-fluid">
+<app-menu></app-menu>
+
+<div class="container-fluid">
+  <table class="table">
+    <thead>
+      <tr class="success">
+        <th>ID Number</th>
+        <th>Name</th>
+        <th>Employee Code</th>
+        <th>Project</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="danger" *ngFor="let i of Employees">
+        <td>{{i.id}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.e_code}}</td>
+        <td>{{i.project}}</td>
+        <td><button (click)="DeleteEmployee()">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container-fluid data_entry">
+  <input  type="text" placeholder="Serial" [(ngModel)]="Employee.id" readonly>
+  <input type="text" placeholder="Name" [(ngModel)]="Employee.name">
+  <input type="text" placeholder="EmployeeID" [(ngModel)]="Employee.e_code">
+  <input type="text" placeholder="Project" [(ngModel)]="Employee.project">
+  <button (click)="addEmployee()">Submit</button>
+  
+</div>
+</div>

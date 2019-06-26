@@ -1,0 +1,29 @@
+.masthead {
+    width: 966px !important;
+    background: #fff;
+    padding-top: 0px;
+    border: solid 0px blue;
+}
+
+.pulse_icon {
+    padding-left: -10px;
+    padding-top: 20px !important;
+    z-index: 9999;
+}
+
+.pulse_image {
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    /* z-index: 9999; */
+    /* widht: 125px !important; */
+    margin-top: -55px;
+}
+
+.login {
+    float: right;
+    padding: 0px 78px 0px 0px;
+}
+
+.signUp {
+    float: right;
+}

@@ -1,0 +1,54 @@
+<div class="container-fluid menu">
+  <table width="100%">
+    <tbody>
+      <tr>
+        <td align="right"> <div class="ralignSearch">
+		 
+          <input type="text" size="30" name="query" placeholder=" Search Pulse.datamatics.com" onclick="javascript:conditionalClear(this.value);this.style.color='#777169';" onkeypress="return focusNext(this.form, 'name2', event)">&nbsp;&nbsp;<input type="button" value="GO" onclick="fnSearch(); return true;">
+      
+          </div></td>
+      </tr>
+
+      <tr>
+        <td align="right">  <span class="ralign00">
+      <a href="https://www.pulse.datamatics.com/dlintranet/Login.do?method=showLogout" target="_blank">Pulse FAQs</a> |
+      
+      <a id="link-sitemap" href="javascript:void(0)" onclick="foShow('Sitemap', '950', '950', '/corpcomm/jsp/Pulse/Shared/Modules/', event)">Sitemap</a> |
+       
+      <a id="link-feedback" href="/dlintranet/feedbackapp.do?method=init" onclick="foShow('FeedBack', 400, 340, '/corpcomm/jsp/Pulse/Shared/Modules/', event)">Feedback</a> 
+        </span></td>
+      </tr>
+      <tr>
+        <td>
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <a class="navbar-brand pulse_icon" href="#">
+                <img src="assets/Pulse.PNG" width="104" border="0" alt="Pulse Home" class="pulse_image"></a>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Know Your Company</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Communications<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Communications</a></li>
+                    <li><a href="#">Delivery</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Book Sessions</a></li>
+                <li><a href="#">ISMS</a></li>
+                <li><a href="#">Human Resourse</a></li>
+                <li><a href="#">Notice Board</a></li>
+                <li><a href="#">Employee Area</a></li>
+                <li><a href="#">Josh</a></li>
+                <li><a href="#">CSR</a></li>
+                <li class="login" routerLinkActive="active"><a [routerLink]="['/login']"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                <li class="signUp" (click)="login()"><a href="#"><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+              </ul>
+            </div>
+          </nav>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>

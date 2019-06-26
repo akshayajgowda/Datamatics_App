@@ -1,0 +1,34 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+.container {max-width:1024px;}
+.body {color:#67757c; margin: 0px;font-family: 'Roboto', sans-serif!Important; background: #f3f3f3!important; }
+h1,h2,h3,h4,h5,h6,ul li,ul li a,ul li,ol li,ol li a,ol li,
+p,span,a,div{margin: 0px;font-family: 'Roboto', sans-serif!Important;}
+h1,h2,h3,h4,h5,h6{color:#455a64;}
+h1 {line-height: 40px; font-size: 36px;}
+h2 {line-height: 36px;font-size: 24px;}
+h3 {line-height: 30px;font-size: 21px;    font-weight: 500;}
+h4 {line-height: 24px;font-size: 18px;    font-weight: 500;}
+h5 {line-height: 18px;font-size: 16px;    font-weight: 400;}
+h6 {line-height: 16px; font-size: 14px;    font-weight: 400;}
+a{text-decoration: none;}
+.db-button {background: #ffffff;border: 1px solid rgba(120, 130, 140, 0.18);color: #677571;text-transform: capitalize;}
+img{max-width:100%;}
+.containers {max-width: 1100px!important;float: none!important;margin: 0px auto!important;padding: 0px 15px;}
+table {font-family: 'Roboto', sans-serif!Important;border-collapse: collapse;width: 100%;}
+td, th {border: 1px solid #dddddd;padding: 8px;} 
+
+/**********Header Start********************/
+
+/* .menu {
+    padding-right: -24px;
+    padding-left: -23px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: -25px !important;
+    padding-left: -25px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+} */
